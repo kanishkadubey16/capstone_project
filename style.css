@@ -1,0 +1,266 @@
+body {
+    
+    background-color: #0A0805;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0A0805;
+    
+    padding: 20px;
+}
+
+
+header .logo{
+    
+    font-size: 1.5rem;
+    width:193px;
+    height:48px;
+    gap:12px;
+    
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    Width:Hug(484)px;
+    height:Hug(32)px;
+    Gap:40px;
+}
+
+
+
+header ul li {
+    margin-left: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+
+
+
+header ul li a:hover {
+    color: #ffd700;
+}
+
+
+
+
+
+.hero {
+    display: grid;
+    place-items: center; 
+    height: 100%;
+}    
+
+.hero h1 {
+    width: 1344px;
+    height: 120px;
+    font-family: 'Domine';
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -2px;
+    color:#E4DFD7;
+    text-align: center;     
+}
+
+
+.hero img {
+    width: 100vw;
+    height: 100vh; 
+    border-radius: 28px;
+    
+    color: #000000;
+    text-align: center;
+    
+}
+    
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+    width:Fill(1,344px);
+    height:Hug(437px);
+    padding-top:52px;
+    padding-bottom:52px;
+    gap:52px;
+    color:#0A0805;
+
+}
+.project-grid div{
+    background-color:#000000;
+    width:Fill(413.33px);
+    height:Fixed(333px);
+    gap:10px;
+}
+
+
+
+.project-grid div:hover {
+    transform: scale(1.05);
+}
+
+.project-grid img{
+    width:413.33px;
+    height:275px;
+    border-radius:16px;
+    border-top:1.5px #000000;
+}
+
+
+.project-grid h3{
+    width:413.33px;
+    height:24px;
+    font-style:outfit;
+    font-weight:400px;
+    font-size:17px;
+    line-height:24px;
+    color:#EAE0D2;
+}
+.project-grid p{
+    width:413.33px;
+    height:24px;
+    font-style:outfit;
+    font-weight:400;
+    font-size:17px;
+    line-height:24px;
+    color:hsl(36, 26%, 26%);
+}
+
+/* .project-grid p {
+    font-size: 16px;
+    color: #555;
+} */
+ .contact-me-section{
+    width:Fill(1,344px);
+    height:Hug(140px);
+    border-bottom:1.5px;
+    padding-top:52px;
+    padding-bottom:52px;
+    gap:52px;
+    background-color: #0A0805;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ }
+.contact-section{
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+    
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin:0;
+}
+    
+.contact-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin:0;
+       
+}
+
+.contact-form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap:20px; */
+    width:Fill(1,344px);
+    height:Hug(700px);
+    min-height:700px;
+    padding-top:200px;
+    /* gap:52px; */
+    color:white;
+}
+    
+.contact-form h2 {
+    margin-bottom: 20px;
+    width:Fixed(400px);
+    height:Hug(276px);
+    gap:40px;
+    text-align: center;
+    color:#E4DFD7;
+}
+    
+.input-container {
+    background-color: #0A0805;
+    display: flex;
+    justify-content: center;
+    gap: 14px; 
+    margin-bottom: 20px;
+    width:Fixed(600px);
+    Height:Hug(64px);
+}
+    
+.input-container input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px ;
+    border-radius: 8px;
+    background-color:#DED0BA1F;
+    
+} 
+.button-container {
+    width: 20%;
+}
+.submit-button {
+    background-color:#B08D57;
+    width: 100%;
+    Height:Hug(40px);
+    border-radius: 16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: white;
+    
+}
+.contact-form .skip-button {
+    width:28px;
+    height:20px;
+    font-style:Outfit;
+    font-weight:500px;
+    font-size:15px;
+    line-height:20px;
+    color:#C7AE87;
+    background-color: transparent;
+    text-align:center;
+    border:none;
+    margin-left: -20px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+}
+
+.follow-link {
+    background-color: black;
+    color: white;
+    border: 1px solid #C7AE87;
+    border-radius: 5px;
+    height: 20px;
+    width: auto;
+}
