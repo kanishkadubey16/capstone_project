@@ -13,7 +13,6 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color:#0A0805;
-    
     padding: 20px;
 }
 
@@ -51,10 +50,6 @@ header ul li {
 header ul li a:hover {
     color: #ffd700;
 }
-
-
-
-
 
 .hero {
     display: grid;
@@ -259,111 +254,17 @@ header ul li a:hover {
     height: 20px;
     width: auto;
 }
-/* Base styles remain unchanged */
-
-/* Add responsive design */
-@media (max-width: 1024px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
+@media (max-width: 768px) {
     .header ul {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-    }
-
-    .hero h1 {
-        font-size: 80px;
-        line-height: 90px;
-        width: 90%;
-    }
-
-    .project-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
-    .project-grid img {
-        width: 100%;
-        height: auto;
-    }
-
-    .project-grid h3, .project-grid p {
         text-align: center;
     }
-}
-
-@media (max-width: 768px) {
-    .header {
-        padding: 10px;
-    }
-
-    .header ul li {
-        margin-left: 0;
-    }
-
-    .hero img {
-        width: 100%;
-        height: auto;
-    }
-
-    .contact-form {
-        width: 100%;
-        padding-top: 50px;
-    }
-
-    .input-container {
-        flex-direction: column;
-        width: 90%;
-    }
-
-    .input-container input {
-        width: 90%;
-    }
-
-    .submit-button {
-        width: 100%;
-        padding: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .header .logo {
-        font-size: 1rem;
-        width: auto;
-        height: auto;
-    }
-
-    .header ul {
-        gap: 10px;
-    }
 
     .hero h1 {
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 2.5rem;
     }
 
     .project-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-form h2 {
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    .submit-button {
-        font-size: 14px;
-    }
-    
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .follow-link {
-        margin-bottom: 10px;
+        padding: 20px;
     }
 }
